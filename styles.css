@@ -19,7 +19,11 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+}
+
+hr {
+    margin: 20px 0;
 }
 
 header p {
@@ -36,6 +40,7 @@ main {
     flex-direction: column;
     height: 250px;
     width: 100%;
+    margin: 20px 0px;
 }
 
 /* .article-1 .article-2 article-3 {
@@ -58,6 +63,7 @@ section {
 
 section h1 {
     margin: 20px auto;
+    font-size: 2rem;
 }
 
 .article-2::after {
@@ -65,11 +71,14 @@ section h1 {
     display: inline-block;
     position: absolute;
     border: 1px solid black;
-    height: 20cm;
+    height: 18cm;
+    margin-bottom: 30px;
 }
 
 .article-1 p {
     margin: 20px 0;
+    font-size: 1.3rem;
+    padding: 5px 0;
 }
 
 ul {
@@ -84,6 +93,7 @@ li {
     width: 48%;
 }
 
-.article-1 p {
-    margin: 10px 0;
+.article-3 p {
+    font-size: 1.3rem;
+    padding: 5px 0;
 }
